@@ -1,4 +1,14 @@
 import requests
+"""
+This script fetches and displays weather information for a specified city using the OpenWeatherMap API.
+Functions:
+    get_weather(api_key, city):
+        Fetches weather data for the specified city using the provided API key.
+    main():
+        Main function that sets the API key and city, retrieves weather data, and prints the weather information.
+Usage:
+    Replace "your_api_key_here" with your actual OpenWeatherMap API key before running the script.
+"""
 
 def get_weather(api_key, city):
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
